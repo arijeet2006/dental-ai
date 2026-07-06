@@ -85,7 +85,7 @@ dental_agent_project/
 ### Prerequisites
 
 - Python 3.10 or higher
-- An xAI API key (Grok-4 model)
+- A Gemini API key
 
 ### Steps
 
@@ -109,8 +109,8 @@ dental_agent_project/
 
    Create a `.env` file in the project root with your xAI API key:
    ```
-   XAI_API_KEY=your_api_key_here
-   MODEL_NAME=grok-4
+   GEMINI_API_KEY=your_api_key_here
+   MODEL_NAME=Flash2.5
    TEMPERATURE=0
    ```
 
@@ -238,8 +238,8 @@ Environment variables can be set in `.env`:
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| XAI_API_KEY | Your xAI API key | Required |
-| MODEL_NAME | LLM model to use | grok-4 |
+| GEMINI_API_KEY | Your API key | Required |
+| MODEL_NAME | LLM model to use | Flash 2.5 |
 | TEMPERATURE | LLM creativity (0=deterministic) | 0 |
 
 ## License
